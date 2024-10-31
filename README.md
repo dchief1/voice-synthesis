@@ -27,4 +27,18 @@ For detailed API documentation and usage examples, visit the [API Documentation]
 - **POST /api/v1/conversation/converse**: Start a new conversation. (Requires a valid JWT token)
 - **GET /api/v1/conversation/history**: Retrieve conversation history for the authenticated user.
 
-...
+## Getting Started
+
+### Prerequisites
+
+- **Node.js** (version 20 or later)
+- **MongoDB**: A MongoDB instance for storing user and conversation data.
+- **Docker** (optional, for deployment)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/voice-synthesis
+   cd voice-synthesis
+   ```
