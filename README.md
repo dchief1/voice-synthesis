@@ -35,6 +35,13 @@ For detailed API documentation and usage examples, visit the [API Documentation]
 - **MongoDB**: A MongoDB instance for storing user and conversation data.
 - **Docker** (optional, for deployment)
 
+## Deployment
+
+- **Docker Deployment**: Built and deployed using Docker to Render.
+- **CI/CD Pipeline**: Implemented using GitHub Actions with:
+  - **Docker Build**: Builds and pushes the image to Docker Hub
+  - **Auto-Deploy**: Triggers auto-deployment to Render
+
 ### Installation
 
 1. Clone the repository:
